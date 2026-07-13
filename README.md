@@ -1,6 +1,6 @@
 # Pantheon
 
-Pantheon is a small, privacy-preserving Safari content blocker for macOS. It blocks common advertising networks on every site and applies extra request, popup, and cosmetic rules on Pornhub.
+Pantheon is a small, privacy-preserving Safari content blocker for macOS. It blocks common advertising networks on every site and applies extra request, popup, and cosmetic rules.
 
 The extension uses Safari's native content-blocking engine. It cannot read browser history, page contents, passwords, or browsing activity.
 
