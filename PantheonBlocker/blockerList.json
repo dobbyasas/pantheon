@@ -1,0 +1,1174 @@
+[
+  {
+    "trigger": {
+      "url-filter": ".*doubleclick\\.net/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*googlesyndication\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*googleadservices\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adnxs\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*rubiconproject\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*pubmatic\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*openx\\.net/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*criteo\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*criteo\\.net/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*taboola\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*outbrain\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*amazon-adsystem\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*scorecardresearch\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*moatads\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*casalemedia\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*contextweb\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*3lift\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*sharethrough\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*yieldmo\\.com/",
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*trafficjunky\\.net/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*trafficjunky\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tj-content\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*exoclick\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*exosrv\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*exdynsrv\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*juicyads\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*trafficstars\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tsyndicate\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*ero-advertising\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adnium\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*plugrush\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adxpansion\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*clickaine\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*hilltopads\\.net/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*popads\\.net/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*popcash\\.net/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*propellerads\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*zeroredirect\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adsterra\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*admaven\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*onclicka\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*onclickmega\\.com/",
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "popup",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]ads?[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]advertising[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]adserver[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]ad-delivery[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]ad_delivery[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]ads_batch[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]banner[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]campaign[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "[/?:&]sponsor[/?&=_.-]",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "image",
+        "script",
+        "style-sheet",
+        "child-document",
+        "raw",
+        "svg-document",
+        "ping",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pornhub.com"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".adContainer, .ad-container, .ad-wrapper, .adWrapper, .ad-link, .adLabel, .ad-label, .advertisement, .advertisement-container, .sponsor-text, .sponsored, [data-ad-id], [data-advertisement], [id^='ad_'], [id^='ad-'], [class*='adContainer'], [class*='ad-wrapper'], [class*='advertisement'], iframe[src*='trafficjunky'], a[href*='trafficjunky'], iframe[src*='exoclick'], a[href*='exoclick']"
+    }
+  }
+]
