@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "priority": 10,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||pornhub.com/_xa/ads",
+      "resourceTypes": ["script", "image", "sub_frame", "xmlhttprequest", "websocket", "other"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 10,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||trafficjunky.com",
+      "resourceTypes": ["script", "image", "sub_frame", "xmlhttprequest", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 10,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||trafficjunky.net",
+      "resourceTypes": ["script", "image", "sub_frame", "xmlhttprequest", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 10,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||tj-content.com",
+      "resourceTypes": ["script", "image", "sub_frame", "xmlhttprequest", "media", "websocket", "other"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 10,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||ktkjmp.com/adsbygoogle.js",
+      "resourceTypes": ["script"]
+    }
+  }
+]

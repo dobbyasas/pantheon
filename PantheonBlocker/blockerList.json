@@ -1147,6 +1147,37 @@
   },
   {
     "trigger": {
+      "url-filter": "pornhub\\.com/_xa/ads",
+      "resource-type": [
+        "image",
+        "script",
+        "child-document",
+        "raw",
+        "fetch",
+        "websocket",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*pornhub.com"
+      ],
+      "resource-type": [
+        "websocket"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
       "url-filter": ".*",
       "if-domain": [
         "*pornhub.com"
@@ -1168,7 +1199,7 @@
     },
     "action": {
       "type": "css-display-none",
-      "selector": ".adContainer, .ad-container, .ad-wrapper, .adWrapper, .ad-link, .adLabel, .ad-label, .advertisement, .advertisement-container, .sponsor-text, .sponsored, [data-ad-id], [data-advertisement], [id^='ad_'], [id^='ad-'], [class*='adContainer'], [class*='ad-wrapper'], [class*='advertisement'], iframe[src*='trafficjunky'], a[href*='trafficjunky'], iframe[src*='exoclick'], a[href*='exoclick']"
+      "selector": "#hd-leftColVideoPage > div.topSectionGrid > div.sideColumn.original > div.sideAds, #pb_iframe, #js-abContainterMain, .js_promoItem, .adContainer, .ad-container, .ad-wrapper, .adWrapper, .ad-link, .adLabel, .ad-label, .advertisement, .advertisement-container, .sponsor-text, .sponsored, [data-ad-id], [data-advertisement], [id^='ad_'], [id^='ad-'], [class*='adContainer'], [class*='ad-wrapper'], [class*='advertisement'], iframe[src*='trafficjunky'], a[href*='trafficjunky'], iframe[src*='ktkjmp'], a[href*='?ats='], iframe[src*='exoclick'], a[href*='exoclick']"
     }
   }
 ]

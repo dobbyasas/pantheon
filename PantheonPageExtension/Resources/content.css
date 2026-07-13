@@ -1,0 +1,37 @@
+/* Current Pornhub placements. Kept site-scoped by manifest.json. */
+#hd-leftColVideoPage > div.topSectionGrid > div.sideColumn.original > div.sideAds,
+#relatedVideosListing > li.js-nativeTjVideoGrid.js_promoItem:has(> div > iframe),
+#relatedVideosCenter > li.js_promoItem:has(> div > iframe),
+#hd-leftColVideoPage > div.topSectionGrid > div.videoWrapModelInfo.original > div > div.hd.clear.original,
+#hd-leftColVideoPage > div > div.hd.clear.original:has(> div > iframe),
+#hd-rightColVideoPage > div.clearfix:has(> div > div > iframe),
+#videoSearchResult > li.sniperModeEngaged.alpha:has(> div),
+#videoSearchResult > li.emptyBlockSpace,
+#singleFeedSection > li.sniperModeEngaged.alpha:has(> div),
+#singleFeedSection > li.emptyBlockSpace,
+#pb_iframe,
+#js-abContainterMain,
+.js_promoItem,
+.adContainer,
+.ad-container,
+.ad-wrapper,
+.adWrapper,
+.advertisement,
+.advertisement-container,
+[data-ad-id],
+[data-advertisement],
+[class*="adContainer"],
+[class*="ad-wrapper"],
+[class*="advertisement"],
+iframe[src*="trafficjunky"],
+iframe[src*="ktkjmp"],
+a[href*="trafficjunky"],
+a[href*="?ats="],
+body > div:has(> iframe[src*="trafficjunky"]),
+body > div:has(> iframe[src*="ktkjmp"]),
+div:has(> ins[style="width:950px;height:250px;display:block;margin:0 auto;"]) {
+  display: none !important;
+  visibility: hidden !important;
+  min-height: 0 !important;
+  height: 0 !important;
+}

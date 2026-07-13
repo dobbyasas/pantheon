@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Pantheon Page Cleaner",
+  "description": "Removes dynamic page and player ads on Pornhub.",
+  "version": "1.1.0",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.pornhub.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.pornhub.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "pornhub_ads",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "page.js"
+      ],
+      "matches": [
+        "*://*.pornhub.com/*"
+      ]
+    }
+  ]
+}

@@ -13,6 +13,14 @@
 		A01000000000000000000004 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02000000000000000000004 /* ContentBlockerRequestHandler.swift */; };
 		A01000000000000000000005 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = A02000000000000000000006 /* blockerList.json */; };
 		A01000000000000000000006 /* PantheonBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A02000000000000000000009 /* PantheonBlocker.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C01000000000000000000001 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000001 /* SafariWebExtensionHandler.swift */; };
+		C01000000000000000000002 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000004 /* manifest.json */; };
+		C01000000000000000000003 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000005 /* rules.json */; };
+		C01000000000000000000004 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000006 /* content.js */; };
+		C01000000000000000000005 /* page.js in Resources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000007 /* page.js */; };
+		C01000000000000000000006 /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = C02000000000000000000008 /* content.css */; };
+		C01000000000000000000007 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A02000000000000000000007 /* SafariServices.framework */; };
+		C01000000000000000000008 /* PantheonPageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C02000000000000000000009 /* PantheonPageExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +30,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A30000000000000000000001;
 			remoteInfo = PantheonBlocker;
+		};
+		C03000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30000000000000000000001;
+			remoteInfo = PantheonPageExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,6 +48,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				A01000000000000000000006 /* PantheonBlocker.appex in Embed App Extensions */,
+				C01000000000000000000008 /* PantheonPageExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,9 +64,18 @@
 		A02000000000000000000006 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		A02000000000000000000007 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		A02000000000000000000008 /* Pantheon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantheon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A02000000000000000000009 /* PantheonBlocker.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = PantheonBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02000000000000000000009 /* PantheonBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PantheonBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0200000000000000000000A /* Pantheon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pantheon.entitlements; sourceTree = "<group>"; };
 		A0200000000000000000000B /* PantheonBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PantheonBlocker.entitlements; sourceTree = "<group>"; };
+		C02000000000000000000001 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C02000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02000000000000000000003 /* PantheonPageExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PantheonPageExtension.entitlements; sourceTree = "<group>"; };
+		C02000000000000000000004 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C02000000000000000000005 /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
+		C02000000000000000000006 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C02000000000000000000007 /* page.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = page.js; sourceTree = "<group>"; };
+		C02000000000000000000008 /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = content.css; sourceTree = "<group>"; };
+		C02000000000000000000009 /* PantheonPageExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PantheonPageExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +94,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C05000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01000000000000000000007 /* SafariServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +110,7 @@
 			children = (
 				A06000000000000000000002 /* Pantheon */,
 				A06000000000000000000003 /* PantheonBlocker */,
+				C06000000000000000000001 /* PantheonPageExtension */,
 				A06000000000000000000004 /* Frameworks */,
 				A06000000000000000000005 /* Products */,
 			);
@@ -117,8 +151,32 @@
 			children = (
 				A02000000000000000000008 /* Pantheon.app */,
 				A02000000000000000000009 /* PantheonBlocker.appex */,
+				C02000000000000000000009 /* PantheonPageExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C06000000000000000000001 /* PantheonPageExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C02000000000000000000001 /* SafariWebExtensionHandler.swift */,
+				C02000000000000000000002 /* Info.plist */,
+				C02000000000000000000003 /* PantheonPageExtension.entitlements */,
+				C06000000000000000000002 /* Resources */,
+			);
+			path = PantheonPageExtension;
+			sourceTree = "<group>";
+		};
+		C06000000000000000000002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C02000000000000000000004 /* manifest.json */,
+				C02000000000000000000005 /* rules.json */,
+				C02000000000000000000006 /* content.js */,
+				C02000000000000000000007 /* page.js */,
+				C02000000000000000000008 /* content.css */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +195,7 @@
 			);
 			dependencies = (
 				A90000000000000000000001 /* PBXTargetDependency */,
+				C90000000000000000000001 /* PBXTargetDependency */,
 			);
 			name = Pantheon;
 			productName = Pantheon;
@@ -160,6 +219,23 @@
 			productReference = A02000000000000000000009 /* PantheonBlocker.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		C30000000000000000000001 /* PantheonPageExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70000000000000000000001 /* Build configuration list for PBXNativeTarget "PantheonPageExtension" */;
+			buildPhases = (
+				C50000000000000000000001 /* Sources */,
+				C05000000000000000000001 /* Frameworks */,
+				C60000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PantheonPageExtension;
+			productName = PantheonPageExtension;
+			productReference = C02000000000000000000009 /* PantheonPageExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,14 +246,24 @@
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
-					A20000000000000000000001 = {CreatedOnToolsVersion = 26.6; };
-					A30000000000000000000001 = {CreatedOnToolsVersion = 26.6; };
+					A20000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					A30000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					C30000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
 				};
 			};
 			buildConfigurationList = A70000000000000000000003 /* Build configuration list for PBXProject "Pantheon" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			knownRegions = (en, Base, );
+			knownRegions = (
+				en,
+				Base,
+			);
 			mainGroup = A06000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
@@ -187,16 +273,37 @@
 			targets = (
 				A20000000000000000000001 /* Pantheon */,
 				A30000000000000000000001 /* PantheonBlocker */,
+				C30000000000000000000001 /* PantheonPageExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A60000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A60000000000000000000002 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (A01000000000000000000005 /* blockerList.json in Resources */, );
+			files = (
+				A01000000000000000000005 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01000000000000000000002 /* manifest.json in Resources */,
+				C01000000000000000000003 /* rules.json in Resources */,
+				C01000000000000000000004 /* content.js in Resources */,
+				C01000000000000000000005 /* page.js in Resources */,
+				C01000000000000000000006 /* content.css in Resources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
@@ -205,19 +312,41 @@
 		A50000000000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (A01000000000000000000001 /* PantheonApp.swift in Sources */, A01000000000000000000002 /* ContentView.swift in Sources */, );
+			files = (
+				A01000000000000000000001 /* PantheonApp.swift in Sources */,
+				A01000000000000000000002 /* ContentView.swift in Sources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A50000000000000000000002 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (A01000000000000000000004 /* ContentBlockerRequestHandler.swift in Sources */, );
+			files = (
+				A01000000000000000000004 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01000000000000000000001 /* SafariWebExtensionHandler.swift in Sources */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A90000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A30000000000000000000001 /* PantheonBlocker */; targetProxy = A03000000000000000000001 /* PBXContainerItemProxy */; };
+		A90000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30000000000000000000001 /* PantheonBlocker */;
+			targetProxy = A03000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		C90000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30000000000000000000001 /* PantheonPageExtension */;
+			targetProxy = C03000000000000000000001 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -228,10 +357,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Pantheon/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", );
+				INFOPLIST_KEY_CFBundleDisplayName = Pantheon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -247,10 +382,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Pantheon/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", );
+				INFOPLIST_KEY_CFBundleDisplayName = Pantheon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -266,9 +407,14 @@
 				CODE_SIGN_ENTITLEMENTS = PantheonBlocker/PantheonBlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PantheonBlocker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks", );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock.blocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,11 +430,64 @@
 				CODE_SIGN_ENTITLEMENTS = PantheonBlocker/PantheonBlocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PantheonBlocker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@executable_path/../../../../Frameworks", );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock.blocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PantheonPageExtension/PantheonPageExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PantheonPageExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pantheon Page Cleaner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock.page-cleaner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PantheonPageExtension/PantheonPageExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F57TGW3UDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PantheonPageExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pantheon Page Cleaner";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pantheon.adblock.page-cleaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +533,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)", );
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -409,9 +611,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70000000000000000000001 /* Build configuration list for PBXNativeTarget "Pantheon" */ = {isa = XCConfigurationList; buildConfigurations = (B10000000000000000000001 /* Debug */, B10000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "PantheonBlocker" */ = {isa = XCConfigurationList; buildConfigurations = (B20000000000000000000001 /* Debug */, B20000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		A70000000000000000000003 /* Build configuration list for PBXProject "Pantheon" */ = {isa = XCConfigurationList; buildConfigurations = (B30000000000000000000001 /* Debug */, B30000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A70000000000000000000001 /* Build configuration list for PBXNativeTarget "Pantheon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10000000000000000000001 /* Debug */,
+				B10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "PantheonBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20000000000000000000001 /* Debug */,
+				B20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000003 /* Build configuration list for PBXProject "Pantheon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30000000000000000000001 /* Debug */,
+				B30000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70000000000000000000001 /* Build configuration list for PBXNativeTarget "PantheonPageExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20000000000000000000001 /* Debug */,
+				C20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = A10000000000000000000001 /* Project object */;
